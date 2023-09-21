@@ -17,7 +17,7 @@ $(function() {
          if(xhr.status === 200) 
          {
             //if the request was successful
-            //before loading new content, hide the div
+            //before loading new content, hide the div and use a callback function to run when the div is hidden
             //then replace the content using fadeIn
             $("#content").fadeOut('slow', function() {
                $("#content").html(xhr.responseText);
