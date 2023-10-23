@@ -7,11 +7,15 @@
 //team is the name we given for the object
 function JSONPage()
 {
+   //Using JQuery to create a GET request to fetch data from the team.json file 
+   //if successful a use callback function with param team that holds all the data in the JSON page
    $.getJSON('team.json', function(team)
    {
+      //.each takes 2 arguments index/value
       $.each(team, function(index,value)
       {
-         //elements to hold the teams data
+         //create variables to append team data with html elements 
+         //only using value not index b/c value hold the data
          let name = $('<h2>' + value.name + '</h2>');
          let position = $('<h5>' + value.position + '</h5>');
          let bio = $('<p>' + value.bio + '</p>');
@@ -28,6 +32,7 @@ function retrieveData()
       url: "team.json",
       dataType: "json",
       timeout: 2000, //waiting time
+      //before we send the request
       beforeSend: function () 
       {
          //before ajax loads
@@ -38,6 +43,7 @@ function retrieveData()
          //could not retrieve content
          $("#team").text("Error, content could not be retrieved");
       },
+      //request is successful 
      success: function (team) 
      {
          //remove loading...
