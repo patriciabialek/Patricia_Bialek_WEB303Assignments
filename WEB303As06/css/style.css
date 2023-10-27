@@ -50,6 +50,12 @@ main>h2{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h3{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    color: #B5346C;
+}
+
 .resource>h2{
     text-align: left;
     font-size: 2em;
@@ -151,5 +157,9 @@ nav{
 @media screen and (max-width:1006px) {
     nav{
         margin: 0;
+    }
+
+    h3{
+        text-align: center;
     }
 }
