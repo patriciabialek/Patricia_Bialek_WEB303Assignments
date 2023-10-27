@@ -1,0 +1,155 @@
+/*********** accordion JS ***********/
+.accordion-panel {
+    display: none;
+}
+
+/*********** tab JS ***********/
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display:block;
+}
+
+.tab-panel{
+    text-align: justify;
+}
+
+/*********** body/header/h1/h2/resources ***********/
+
+body{
+    margin: 20px 80px 0 80px;
+    background-color:black;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px; 
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    color: #B5346C;
+    text-shadow: 2px 2px #324D90;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+main>h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    color: #B5346C;
+    text-shadow: 2px 2px #324D90;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resource>h2{
+    text-align: left;
+    font-size: 2em;
+    margin: 100px 0 10px 0;
+    color: #B5346C;
+    text-shadow: 2px 2px #324D90;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resource>p{
+    color: #FBF5E9;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+/*********** accordion styles ***********/
+/* button */
+.accordion-control{
+    display: block;
+    margin: 10px auto;
+    padding: 8px 20px;
+    width: 300px;
+    border-radius: 0;
+    border: 2px outset hotpink;
+    background-color: #9586AD;
+    font-size:1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+
+.accordion-control:hover{
+    color: #2954B0;
+}
+
+.accordion-control:active{
+    color: #B5346C;
+}
+/* content */
+.accordion-panel{
+    text-align: center;
+    margin: 15px 0;
+    color:#FBF5E9;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.accordion-panel * li{
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+/*********** tab styles ***********/
+/* ul */
+.tab-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #9586AD;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* li iteams */
+.tabs li{
+    margin: 10px 0;
+    padding: 0 10px;
+    flex-basis: auto;
+}
+
+/* text in li */
+.tabs a{
+    text-decoration: none;
+    font-size:1.5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.tabs a:hover{
+    color: #2954B0;
+}
+
+.tabs a:active{
+    color: #B5346C;
+}
+
+.tabs div{
+    font-size: 1.2em;
+    line-height: 1.2em;
+    background-color: #FBF5E9;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: justify;
+}
+
+nav{
+    margin: 0 200px;
+}
+
+/* responsive */
+@media screen and (max-width:1006px) {
+    nav{
+        margin: 0;
+    }
+}
