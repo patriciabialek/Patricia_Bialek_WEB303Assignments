@@ -1,0 +1,51 @@
+[
+    {
+        "firstName": "Tanjiro",
+        "lastName": "Kamado",
+        "birthday": "1900-07-14",
+        "breathingStyle": "Sun Breathing",
+        "gender": "Male"
+    },
+    {
+        "firstName": "Zenitsu",
+        "lastName": "Agatsuma",
+        "birthday": "1900-09-03",
+        "breathingStyle": "Thunder Breathing",
+        "gender": "Male"
+    },
+    {
+        "firstName": "Inosuke",
+        "lastName": "Hashibira",
+        "birthday": "1900-04-22",
+        "breathingStyle": "Beast Breathing",
+        "gender": "Male"
+    },
+    {
+        "firstName": "Kyojuro",
+        "lastName": "Rengoku",
+        "birthday": "1896-05-10",
+        "breathingStyle": "Flame Breathing",
+        "gender": "Male"
+    },
+    {
+        "firstName": "Shinobu",
+        "lastName": "Kocho",
+        "birthday": "1898-02-24",
+        "breathingStyle": "Insect Breathing",
+        "gender": "Female"
+    },
+    {
+        "firstName": "Giyu",
+        "lastName": "Tomioka",
+        "birthday": "1895-02-08",
+        "breathingStyle": "Water Breathing",
+        "gender": "Male"
+    },
+    {
+        "firstName": "Mitsuri",
+        "lastName": "Kanroji",
+        "birthday": "1897-06-01",
+        "breathingStyle": "Love Breathing",
+        "gender": "Female"
+    }
+]
