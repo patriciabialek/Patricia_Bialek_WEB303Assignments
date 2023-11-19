@@ -1,0 +1,72 @@
+/* box size of swatch */
+#photo-viewer{
+  position:relative;
+  height: 300px;
+}
+
+/* center the main image */
+#photo-viewer img{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 10;
+  top: calc(50% - 20px);
+  left: calc(50% - 50px);
+  border: 10px solid pink;
+}
+
+/* thumbnail images */
+.thumb img{
+  margin-top: 40px;
+  width:100px;
+  border: 10px solid transparent;
+  display: block;
+  float: left;
+}
+
+/* div to center the thumbnails */
+.littlePic{
+  margin: 0 auto;
+  width: 500px;
+}
+
+/* active thumbnail */
+/* a.active{
+  opacity: 0.3;
+} */
+
+.littlePic.active{
+  opacity: 0.3;
+}
+
+/* border on active thumbnail */
+.thumb img.active {
+  border: 10px solid pink; 
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0 60px 0;
+  font-size: 3em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:pink;
+}
+
+/* Modal */
+.modal{
+  position: fixed;
+  top: 40%;
+  left: 40%;
+}
+
+.modal img {
+  max-width: 150%;
+  max-height:150%;
+  border: 10px solid pink;
+}
+
+.btn{
+  display: none;
+}
