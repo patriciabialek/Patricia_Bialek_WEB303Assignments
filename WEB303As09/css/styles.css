@@ -1,0 +1,85 @@
+body {
+    background-color: #3d9f87;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0;
+  }
+  
+  #tableContainer {
+    text-align: center;
+  }
+  
+  /* entire table */
+  table {
+    width: 1000px;
+    margin: 0 auto;
+    border-bottom: 3px solid black;
+  }
+  
+  /* headings */
+  th {
+    font-size: 1.3em;
+    border: 3px solid black;
+    padding: 15px 0;
+    background-color: #cf9fad;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #2b222e;
+    font-weight: bold;
+  }
+  
+  /* row */
+  tr {
+    border-bottom: 3px solid black;
+    background-color: #2b222e;
+  }
+  
+  /* cell */
+  td {
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    font-size: 1.2em;
+    padding: 15px 0;
+    color: #cf9fad;
+  }
+
+  /* input box */
+  input{
+    max-width: 25%;
+    height: 25px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  /* Buttons */
+  button{
+    max-width: 30%;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:black;
+    color: aliceblue;
+    margin-top: 20px;
+  }
+
+  .btn-1:hover, .btn-2:hover{
+    background-color: #cf9fad;
+    border: 2px solid black;
+  }
+
+  .btn-1:active, .btn-2:active{
+    background-color: black;
+    border: 2px solid #cf9fad;
+  }
+
+  .btn{
+    text-align: center;
+  }
